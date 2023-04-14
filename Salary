@@ -1,0 +1,29 @@
+using System;
+class HomeTask 
+{
+  static void Main() 
+  {
+    double salary = 2000;
+    int years = 2;
+    if(years >= 1 && years <=3)
+    {
+        salary *= 1.1;
+    }
+    else if(years > 3)
+    {
+        salary *= 1.2;
+    }
+    if(salary < 4000)
+    {
+        salary += 1000;
+    }
+    else if (salary > 4000)
+    {
+        salary +=500;
+    }
+    {
+    Console.WriteLine($"Worker's salary = {salary}");
+    }
+  }
+}
+
