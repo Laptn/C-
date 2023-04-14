@@ -1,0 +1,27 @@
+using System;
+class HomeTask
+{
+  static void Main() 
+  {
+    string cont = "yes";
+    while(cont == "yes")
+    {
+    Console.WriteLine("Write your age");
+    int age = Convert.ToInt32(Console.ReadLine());
+    if (age < 0)
+    {
+    Console.WriteLine("Wrong age");
+    }
+    else if (age < 18)
+    {
+        Console.WriteLine("You have not of legal age");
+    }
+    else 
+    {
+        Console.WriteLine("You are old already");
+    }
+    Console.WriteLine("Do you want continue? yes/no");
+    cont = Console.ReadLine();
+    }
+  }
+}
