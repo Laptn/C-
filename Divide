@@ -1,0 +1,17 @@
+using System;
+class HomeTask
+{
+  static void Main() {
+    float a = 6;
+    float b = 3;
+    float result = a / b;
+    if(a / b == 0)
+    {
+    Console.WriteLine($"Divide = {result}");
+    }
+    else 
+    {
+        Console.WriteLine($"Divided with the remainder = {result}");
+    }
+  }
+}
